@@ -1,0 +1,76 @@
+/*@media screen and (max-width: 1000px)  {
+  
+}*/
+
+@media screen and (max-width: 1000px)  {
+
+  .master {
+    width: 100%;
+    margin: 0 auto;
+    float: center;
+    display: block;
+    /*padding: 2em;*/
+  }
+
+/*.portfolio {
+  padding-bottom: 500px;
+  border: solid red 1px;
+  margin: 0 auto;
+  float: center;
+  display: block;
+}*/
+
+  .detail {
+    /*position: relative;*/
+    display: block;
+    /*width: 70%;*/
+    width: 100%;
+    margin: 0 auto;
+    float: center;
+    padding: 1em;
+  }
+
+  #trump {
+    overflow: wrap;
+    text-overflow: wrap;
+  }
+
+  #imessage_description {
+    padding-bottom: 200px;
+  }
+
+ /* .footer {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    float: center;
+    position: static;
+    margin-top: 30px;
+    display: none;
+    top: 50px;
+    left: 5px;
+  }*/
+
+
+
+  .stuff {
+    position: fixed;
+    padding-top: 1em;
+    margin: 0 auto;
+    float: left;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    /*background-color: rgba(0, 0, 0, 0.25);*/
+    background-color: yellow;
+     }
+
+  .bio {
+    float: center;
+    display: block;
+    margin: 0 auto;
+    /*width: 95%;*/
+    /*border: solid black 2px;*/
+  }
+
+}

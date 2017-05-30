@@ -1,0 +1,213 @@
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: 'Andale Mono', AndaleMono, monospace;
+}
+
+@font-face {
+font-family: 'Andale Mono';
+font-weight: bold;
+src: url("../fonts/AndaleMono.ttf") format("opentype");
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+	opacity: .65;
+}
+
+a:active {
+	text-decoration: none;
+	color: #000;
+}
+
+.master {
+	float: center;
+	display: block;
+	margin: 0 auto;
+	width: 1050px;
+	/*border: solid red 1px;*/
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 1050px;
+    /*height: 40px;*/
+    color: #000;
+    text-align: center;
+    /*border: solid blue 1px;*/
+}
+
+.project {
+	display: inline-block;
+	float: center;
+	text-align: center;
+	padding: 0em .5em 0em 0em;
+	font-size: 11px;
+	letter-spacing: 1.29px;
+
+}
+
+.project:hover {
+	text-decoration: underline;
+}
+
+
+span {
+	opacity: .3;
+}
+
+.name a:hover h1{
+	opacity: .75;
+
+}
+.stuff {
+	/*width: 100%;*/
+	display: inline-block;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 5px;
+	right: 25px;
+}
+
+.bio {
+	width: 210px;
+	/*border: solid black 1px;*/
+	margin: 0 auto;
+	float: right;
+	display: inline-block;
+	text-align: left;
+	padding-bottom: 30px;
+	
+}
+
+.bio h1 {
+	font-size: 18px;
+	letter-spacing: 1.71px;
+	line-height: 12px;
+}
+
+.places {
+	font-size: 10px;
+	letter-spacing: 1px;
+	/*line-height: 22px;*/
+}
+
+.places a {
+	color: blue;
+}
+
+/*
+THIS IS THE PROJECT SECTION
+*/
+.detail {
+	float: left;
+	width: 500px;
+	/*position: absolute;*/
+	display: inline-block;
+	/*top: 30px;*/
+	margin: 0 auto;
+	margin-top: 15px;
+	padding-bottom: 25px;
+	
+}
+
+.name h1 {
+	font-size: 22px;
+	letter-spacing: 2.57;
+	text-decoration: underline;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+
+.description p {
+	font-size: 13px;
+	/*letter-spacing: 1.43px;*/
+	/*line-height: 50px;*/
+}
+
+.description p a {
+	/*text-decoration: underline;*/
+	opacity: .55;
+}
+
+.press {
+	width: 100%;
+	margin: 0 auto;
+	float: center;
+	display: block;
+	/*padding: 1em 0em 1em 0em;*/
+	overflow: auto;
+	/*margin-top: -5px;*/
+}
+
+.article {
+	display: block;
+	float: left;
+	margin: 0 auto;
+	color: #9B9B9B;
+	font-size: 11px;
+	font-style: italic;
+	padding: .5em 0em;
+
+}
+
+.article a{
+	color: blue;
+	font-size: 11px;
+	line-height: 0px;
+	font-style: normal;
+}
+
+/*#gabe_link:hover {
+	text-decoration: underline;
+}*/
+
+.linkto {
+	display: block;
+	margin: 0 auto;
+	float: center;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.linkto p {
+	font-size: 11px;
+	margin: 0 auto;
+	padding: 0px;
+	color: #9B9B9B;
+	/*line-height: 0px;*/
+	/*opacity: .55;*/
+	/*text-transform: uppercase;*/
+}
+
+
+
+/*magic*/
+
+
+
+
+
+
+
+
+

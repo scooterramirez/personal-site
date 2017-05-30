@@ -1,0 +1,176 @@
+body {
+  color: #595959;
+  background-color: #f8f8f8;
+  font-family: helvetica;
+  font-weight: 800;
+  opacity: .7;
+}
+
+h1 {
+	font-weight: 800;
+}
+
+a {
+	color: #595959;
+	opacity: 1;
+	text-decoration: underline;
+}
+
+a:hover {
+	opacity: .6;
+	color: #595959;
+	text-decoration: none;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*navbar rubbish */
+
+.navbar {
+	border: none;
+}
+
+
+
+/*form styling*/
+.fmlist {
+	width: 100%;
+	margin: 0 auto;
+	float: center;
+	display: block;
+	text-align: center;
+	padding: 15em 2em 15em 2em;
+
+}
+* {
+  outline:none;
+	border:none;
+	margin:0px;
+	padding:0px;
+	/*font-family:Courier, monospace;*/
+}
+
+#margin {
+	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+	display: inline-block;
+	margin: 0 auto;
+	float: center;
+}
+
+#text {
+	/*width:700px;*/
+
+	overflow:hidden;
+	background-color:#FFF;
+	/*color:#222;*/
+	font-family:Courier, monospace;
+	/*font-weight:normal;*/
+	/*font-size:24px;*/
+	resize:none;
+	color: #595959;
+	opacity: 1;
+	/*line-height:40px;*/
+	
+	background-repeat:repeat-y, repeat;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	-webkit-box-shadow: 0px 2px 14px #595959;
+	box-shadow: 0px 2px 14px #595959;
+	border-top:60px solid #595959;
+	border-bottom:60px solid #595959;
+
+}
+
+#title {
+	background-color:transparent;
+	 /*border-bottom:1px solid #000; */
+	color:#595959;
+	/*font-size:20px;*/
+	font-family:helvetica;
+	opacity: .7;
+	/*height:28px;*/
+	font-weight:800;
+	font-size: 350%;
+	/* width:220px; */
+}
+
+
+
+.submit {
+	display: inline-block;
+	margin: 0 auto;
+	float: center;
+	/*border: solid red;*/
+	padding: 1em;
+
+}
+
+
+
+/*footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /*background-color: #f5f5f5;*/
+  font-weight: 400;
+  text-align: center;
+  padding: 2em 0em 2em 0em;
+  font-family: monospace;
+}
+
+
+
+.define {
+
+}
+
+.credits {
+	font-size: 75%;
+	padding: 3em 0em 1em 0em;
+}
+
+.lolz {
+	margin: 0 auto;
+	float: center;
+	display: block;
+	text-align: center;
+}
+
+.lolz li {
+	text-decoration: none;
+	display: inline-block;
+	float: center;
+	margin: 0 auto;
+}
+
+
+
+/* mobile sizing */
+@media screen and (max-width: 600px) {
+
+
+#container {
+    float: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+    /* Style adjustments for viewports that meet the condition */
+}
